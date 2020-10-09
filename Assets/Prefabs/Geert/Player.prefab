@@ -95,9 +95,10 @@ GameObject:
   - component: {fileID: 7359053958206086729}
   - component: {fileID: 7359053958206086742}
   - component: {fileID: 7359053958206086731}
+  - component: {fileID: 5826549340439266362}
   m_Layer: 0
-  m_Name: Player 1
-  m_TagString: Untagged
+  m_Name: Player
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -180,3 +181,17 @@ MonoBehaviour:
   minimumY: -60
   maximumY: 60
   mainCamara: {fileID: 7359053957521692509}
+--- !u!114 &5826549340439266362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7359053958206086743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4c210b8e84c114a9659bf94e6dce2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageScreen: {fileID: 3129833116732155643, guid: 6f44f97f0d05f364faa193f50a7af095, type: 3}
+  health: 100
